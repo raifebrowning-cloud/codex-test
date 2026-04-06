@@ -1,5 +1,5 @@
-import * as THREE from "https://unpkg.com/three@0.164.1/build/three.module.js";
-import { PointerLockControls } from "https://unpkg.com/three@0.164.1/examples/jsm/controls/PointerLockControls.js";
+import * as THREE from "three";
+import { PointerLockControls } from "three/addons/controls/PointerLockControls.js";
 
 const scene = new THREE.Scene();
 scene.fog = new THREE.FogExp2(0x0a0b14, 0.03);

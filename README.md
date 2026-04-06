@@ -1,18 +1,19 @@
-# Spore Ant Maze FPS
+# Squirrel Parkour
 
-A lightweight browser FPS demo built with Three.js.
+A lightweight browser game built with Three.js where you play as a squirrel sprinting across floating parkour courses.
 
 ## Features
-- 3D first-person movement with pointer lock controls.
-- Maze environment with collision-aware movement.
-- Giant ant enemies with simple hive-influenced behavior.
-- Spore hive objective and HUD with health/kill tracking.
+- First-person squirrel movement with pointer lock controls.
+- Three distinct parkour lanes to clear (`Maple Sprint`, `Pine Dash`, and `Oak Leap`).
+- Jump and dash movement for chaining difficult landings.
+- Acorn pickups and a timer for replay goals.
 
 ## Controls
 - **Click**: lock pointer/start playing.
 - **W A S D**: move.
+- **Space**: jump.
+- **Shift**: dash boost.
 - **Mouse**: look around.
-- **Left click**: fire.
 
 ## Run
 Use any static web server, for example:

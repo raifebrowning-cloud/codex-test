@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spore Ant Maze FPS</title>
+    <title>Squirrel Parkour Courses</title>
     <link rel="stylesheet" href="style.css" />
     <script type="importmap">
       {
@@ -16,14 +16,16 @@
   </head>
   <body>
     <div id="hud">
-      <div class="title">Spore Ant Maze FPS</div>
+      <div class="title">Squirrel Parkour</div>
       <div class="stats">
-        <span id="health">Health: 100</span>
-        <span id="ammo">Spore Blaster: ∞</span>
-        <span id="kills">Ants Defeated: 0</span>
+        <span id="course">Course: Maple Sprint</span>
+        <span id="acorns">Acorns: 0 / 18</span>
+        <span id="timer">Time: 0.0s</span>
       </div>
-      <div id="message">Click to enter the maze. WASD to move, mouse to aim, click to fire.</div>
-      <div id="crosshair">+</div>
+      <div id="message">
+        Click to play. WASD move, Space jump, Shift dash. Beat all 3 parkour courses!
+      </div>
+      <div id="crosshair">●</div>
     </div>
 
     <script type="module" src="game.js"></script>
